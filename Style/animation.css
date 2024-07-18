@@ -1,0 +1,64 @@
+/* Flash animation */
+
+@keyframes flash {
+    0%, 50%, 100% {
+        color: #bcbcbcd5;
+    }
+    25%, 75% {
+        color: #7B64FC;
+    }
+}
+
+@keyframes flash-Acer {
+    0%, 50%, 100% {
+        color: #bcbcbcd5;
+    }
+    25%, 75% {
+        color: #A600E7;
+    }
+}
+
+@keyframes flash-Wireless {
+    0%, 50%, 100% {
+        color: #bcbcbcd5;
+    }
+    25%, 75% {
+        color: #a4133c;
+    }
+}
+
+@keyframes flash-Dark {
+    0%, 50%, 100% {
+        color: #bcbcbcd5;
+    }
+    25%, 75% {
+        color: #0466c8;
+    }
+}
+@keyframes flash-ARM {
+    0%, 50%, 100% {
+        color: #bcbcbcd5;
+    }
+    25%, 75% {
+        color: #4ad66d;
+    }
+}
+
+
+.flashing {
+    animation: flash 5s  alternate infinite;
+}
+.flashing-Acer {
+    animation: flash-Acer 5s  alternate infinite;
+}
+.flashing-Wireless {
+    animation: flash-Wireless 5s  alternate infinite;
+}
+.flashing-Dark {
+    animation: flash-Dark 5s  alternate infinite;
+}
+.flashing-ARM {
+    animation: flash-ARM 5s  alternate infinite;
+}
+
+

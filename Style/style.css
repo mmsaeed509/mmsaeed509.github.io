@@ -1,0 +1,361 @@
+@font-face {
+    font-family: Predator;
+    src: url(../Fonts/Squares-Regular.otf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Predator";
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Customize scrollbar for WebKit browsers */
+body::-webkit-scrollbar {
+    width: 12px; /* width of the scrollbar */
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+    background: #010D16; /* color of the track */
+    border-radius: 15px;
+    
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+    background: #7B64FC; /* color of the handle */
+    border-radius: 15px;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+    background: #7B64FC; /* color of the handle on hover */
+    
+}
+body{
+    background-color: #010D16;
+    overflow-x: hidden; 
+}
+
+.h-grad
+{     
+    background-image: linear-gradient(to right, #7B64FC, #0571c3); /* Adjust colors as needed */
+    -webkit-background-clip: text; /* Clip text to the background's shape */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    width: 1000px;
+    font-size: 35px;
+}
+
+.h-grad-2
+{
+    background-image: linear-gradient(to right, #7B64FC, #0571c3, #38004e); /* Adjust colors as needed */
+    -webkit-background-clip: text; /* Clip text to the background's shape */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+    width: 1000px;
+    font-size: 25px;
+}
+
+.code-grad
+{
+    background-image: linear-gradient(to right, #7B64FC, #0571c3); /* Adjust colors as needed */
+    -webkit-background-clip: text; /* Clip text to the background's shape */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+
+}
+a
+{
+    text-decoration: none;
+} 
+
+.cap-l 
+  {
+    font-weight: bolder;
+  }
+.cap-l-l{
+    
+    background-image: linear-gradient(to right, #7B64FC, #0571c3); /* Adjust colors as needed */
+    -webkit-background-clip: text; /* Clip text to the background's shape */
+    -webkit-text-fill-color: transparent; /* Make the text transparent */
+}
+
+#p-light
+{
+    color: #7368b0;
+}
+
+/* header photo */ 
+
+.header-photo
+{ 
+    width: 100%;
+    height: 400px;
+    background-image: url("../Images/main-bg.jpg");
+    background-size: cover;
+}
+.gradient
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( #010d16b9,#010D16 );
+}
+
+/* Nav bar */
+header
+{    
+    width: 100%;
+    height: 120px;
+}
+
+/* nav logo */ 
+.logo-back
+{
+    width: 100%;
+    height: 100%;
+    max-width: 80%;
+    
+}
+
+.logo img
+{
+    max-width: 55%;
+    background-color: #031726;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}   
+.logo img{
+    transform: scale(1.1);
+    box-shadow : 1px 1px 5px 5px #7B64FC;
+}
+
+/* nav list */
+
+
+.nav-list{
+
+    border: 3px  solid #7B64FC ;
+    border-radius: 25px;
+    background-image: linear-gradient(to left,#020d15 ,#140F22);
+   
+}
+.nav-list ul
+{
+    list-style: none;
+}
+
+.nav-list a 
+{
+    text-decoration: none;
+    color: #7368b0;
+    transition: all 0.1s ease-in-out;
+}
+.nav-list li
+{
+    transition: all 0.1s ease-in-out;
+
+}
+.nav-list li a:hover{
+    color: #7B64FC  ;
+}
+
+
+/* button */
+
+.nav-btn  
+{
+  text-decoration: none;
+  color: #000;
+  background-color: #7B64FC;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bolder;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-btn:hover{
+    background-color: #5444ab;
+}
+
+
+/* header*/
+.header-contet{
+    width: 100%;
+}
+
+.header-text > p 
+{
+    color: #7B64FC;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+.header-text h1
+{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+
+
+/*header buttons */ 
+.head-fbtn 
+{
+    
+    color: #000;
+    background: #7B64FC;
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-weight: bolder;
+    transition: all 0.2s ease-in-out;
+    border: 0px solid;
+}
+.head-fbtn:hover
+{
+    color: white;
+    background-color: transparent;
+    border: #7B64FC 3px solid;   
+}
+
+
+
+  .head-sbtn
+  { 
+    color:#010d16d1 ;
+    background-color: transparent;
+    border: #7B64FC solid 3px;
+    color: white; 
+    padding: 10px 50px;
+    border-radius: 30px;
+    font-weight: bolder;
+    transition: all 0.2s ease-in-out;
+    
+  }
+
+  .head-sbtn:hover {
+    color:#010d16d1 ;
+    background-color: #7B64FC;
+    border: none solid 3px;
+  }
+
+
+
+  /* About */ 
+  
+  .about,.benifets
+  {
+    width: 100%;
+    height: 600px;
+    background-color: #010D16;
+  }
+
+  .internal-box
+  {
+    height: 95%;
+    background-color: #140F22;
+    border-radius: 15px;
+    transition: all 0.1s ease-in-out;
+    color: white;
+      box-shadow: 1px 1px 5px 5px #7B64FC;
+    
+  }
+
+/*.internal-box:hover{*/
+/*    box-shadow: 1px 1px 5px 5px #7B64FC;*/
+/*  }*/
+  .internal-box > h1{
+    font-weight: bolder;
+    font-size: 45px;
+    color: #7368b0;
+  }
+
+  /*About img **/ 
+  .about-img img
+  {
+    object-fit: cover;
+    max-width: 50%;
+  }
+
+  /* benift */
+.benf-cont
+{
+    height: 70%;
+}
+
+.benf-img img
+{
+    max-width: 50%;
+    margin-left: 150px;
+}
+.ben-list ul li
+{
+    margin-bottom: 0;
+
+}
+
+
+/*Cards */
+.cards{
+    width: 100%;
+    height: 850px;
+    box-shadow: 0px 5px 5px #7B64FC;
+}
+.card-cards
+{
+
+    background-color:#031726;
+    border-radius: 10px;
+    height: 15em;
+    transition: all 0.2s ease-in-out;
+}
+.card-cards:hover
+{
+    padding: 20px;
+    box-shadow: 0px 5px 5px #7B64FC;
+}
+
+.card-cards > h2
+{
+    font-weight: 700;
+}
+
+
+/* footer */ 
+
+footer{
+    border-top:#7B64FC 1px solid  ;
+    height: 250px;
+    width: 100%;
+    background-image: linear-gradient(to left, #000000, #040b11, #040d15, #140F22);
+}
+
+footer li
+{
+    list-style: none;   
+}
+footer li a 
+{
+    
+    color: #bcbcbcd5;
+    transition: all 0.2s ease-in-out;
+}
+footer li a:hover
+{
+    color: #7B64FC;
+}
+footer svg 
+{
+    height: 30px;
+    border-radius: 100%;
+    transition: all 0.2s ease-in-out;
+}
+footer svg:hover 
+{
+    transform: scale(1.2);
+}
+
+.links-list
+{
+    margin-right: 100px;
+}

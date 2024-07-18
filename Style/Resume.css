@@ -1,0 +1,198 @@
+
+li {
+    list-style: none;
+    color: #6d59de;
+}
+
+
+/* header-team */
+.header-team {
+    width: 100%;
+    height: 350px;
+}
+
+.header-team h1 {
+    font-size: 3rem;
+    color: #e4e4e4;
+    font-weight: bolder;
+    width: 1000px;
+}
+
+/* cards */
+.cards-team {
+    height: 100%;
+    width: 100%;
+}
+.text-color-custom {
+    color: #7B64FC;
+}
+
+.card-team {
+    background-color: #041a2b;
+    border-radius: 20px;
+    width: 100%; /* Make the card fill the available width */
+    padding: 10px; /* Add padding inside the card */
+    margin: 10px; /* Add margin around the card */
+    box-sizing: border-box; /* Ensure padding and border are included in the total width and height */
+    /*box-shadow: 0px 5px 5px #7B64FC;*/
+    box-shadow: 1px 1px 5px 5px #7B64FC;
+}
+
+.card-team-2{
+
+    background-color: #010D16;
+    border-radius: 20px;
+    width: 98%; /* Make the card fill the available width */
+    padding: 10px; /* Add padding inside the card */
+    margin: 10px; /* Add margin around the card */
+    box-sizing: border-box; /* Ensure padding and border are included in the total width and height */
+    box-shadow: inset 0 0 10px 2px rgba(123, 100, 252, 0.6),
+    inset 0 0 20px 4px rgba(123, 100, 252, 0.4),
+    inset 0 0 30px 6px rgba(123, 100, 252, 0.2);
+
+}
+
+.card-team li {
+
+    list-style: outside;
+
+}
+
+.card-team img {
+    border-radius: 50%;
+    width: 20%; /* Make the image fill the available width */
+}
+
+.card-team h3 {
+    font-weight: bolder;
+    color: #58E1FF;
+}
+
+.card-team h5 {
+    color: #01a8b4;
+}
+
+.team-icon-list li i {
+    color: #fff;
+    transition: all 0.1s ease-in-out;
+}
+
+.team-icon-list li i:hover {
+    color: #01a8b4;
+    transform: scale(1.2);
+}
+
+#p-light-about {
+    color: #7B64FC;
+}
+
+.large-image {
+    width: 1000px; /* Adjust the width as needed to make the image bigger */
+    height: auto;
+}
+
+/*   -------------------------------------   */
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #71B7FB;
+}
+
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+}
+
+.section-title p {
+    margin-bottom: 0;
+}
+
+
+.resume {
+
+    /*background-image: linear-gradient( #010d16b9,#010D16 );*/
+    /*border-radius: 20px;*/
+    /*padding: 10px; !* Add padding inside the card *!*/
+    /*margin: 10px; !* Add margin around the card *!*/
+    /*box-sizing: border-box; !* Ensure padding and border are included in the total width and height *!*/
+    /*box-shadow: inset 0 0 10px 2px rgba(123, 100, 252, 0.6),*/
+    /*inset 0 0 20px 4px rgba(123, 100, 252, 0.4),*/
+    /*inset 0 0 30px 6px rgba(123, 100, 252, 0.2);*/
+
+}
+
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #7B64FC;
+}
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #71B7FB;
+    position: relative;
+}
+
+.resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #7368b0;
+    margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+    font-size: 16px;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    background: #5444ab;
+}
+
+.resume .resume-item ul {
+    padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+    padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+    padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #5444ab;
+    border: 2px solid #7B64FC;
+}
+p {
+    color: #6d59de; /* Replace with your desired color */
+    /* Add any other styles you want for <p> tags */
+}
