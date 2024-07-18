@@ -1,0 +1,136 @@
+
+li {
+    color: #7B64FC;
+}
+
+
+.spacer
+{
+    height: 90px;
+}
+.Download{
+
+    width: 100%;
+    height: 900px;
+}
+
+
+.Download .row> .col-8
+{
+    position: relative;
+    width: 990px;
+}
+
+
+
+.Download-button
+{
+    color: #010D16;
+    height: 65px;
+    border-radius: 10px;
+    width: 220px;
+    cursor: pointer;
+    position: absolute;
+    left: 85px;
+
+}
+
+
+.Download-button img
+{
+    max-width: 15%;
+    margin-right: 20px;
+
+}
+/* Buttons */
+#new-setup
+{
+    background: #7B64FC;
+}
+
+#old-setup {
+    background: #7B64FC;
+}
+
+/* Content */
+
+.content-download
+{
+    background-color: #041a2b;
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    left: -85px;
+    width: 150%;
+}
+
+
+.download-header-logo img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: 15px;
+    background-color: #010D16;
+    border-radius: 50%;
+    border: #7B64FC solid 2px;
+}
+
+
+.show-case img
+{
+    max-width: 80%;
+    border-radius: 25px;
+
+}
+.show-case-buttons button
+{
+    background: #7B64FC;
+    height: 50px;
+    color: #041a2b;
+}
+
+p {
+    color: #6d59de; /* Replace with your desired color */
+    /* Add any other styles you want for <p> tags */
+}
+
+h4 {
+    color: #6d59de; /* Replace with your desired color */
+    /* Add any other styles you want for <p> tags */
+}
+
+.Credentials-box
+{
+
+    background-color: #010D16;
+    border: 2px #7B64FC solid;
+
+    border-radius:15px;
+    padding: 15px;
+    height: 160px;
+    position: relative;
+    bottom: -370px;
+
+}
+
+
+.nav-btn img
+{
+    position: relative;
+    right: 20px;
+}
+
+
+
+.disactive
+{
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+p {
+    color: #7B64FC;
+}

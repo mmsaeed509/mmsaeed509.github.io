@@ -13,22 +13,6 @@ window.onload = function() {
 };
 
 
-window.onload = function() {
-    var title = document.getElementById("pageTitle");
-    var img = document.createElement("img");
-    title.insertBefore(img, title.firstChild);
-
-    // Initialize Typed.js for the auto-type effect
-    var options = {
-        strings: ["Skills", "Tools", "Operating Systems"], // Add your desired texts here
-        typeSpeed: 120,
-        backSpeed: 120,
-        loop: true
-    };
-
-    var typed = new Typed(".auto-type-skills", options);
-};
-
 /*header LOOP for words*/
 var typed = new Typed('.auto-type', {
     strings: [
@@ -64,12 +48,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 /* Buttons */
-
-/* nav Button */
-
-// document.querySelector(".nav-btn").addEventListener("click", function() {
-//         window.location.href = "Projects.html";
-// });
 
 /* Header -downlaod*/
 document.querySelector(".head-fbtn").addEventListener("click", function() {

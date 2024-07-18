@@ -64,8 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-/* Home-edtion*/ 
-
+/* Home-edtion*/
 $("#Home-ed").click(function (){
     if (ID == 1) {
     } else {
