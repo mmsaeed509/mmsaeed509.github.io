@@ -54,13 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
         setInterval(updateImage, interval);
     }
 
-    const oldSetupImages = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg'];
-    const newSetupImages = ['1.jpg', '2.jpg', '3.jpg', '4.jpg'];
-    const PiImages = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg',
-                              '7.jpg', '8.jpg', '9.jpg', '10.jpg', '11.jpg', '12.jpg',
-                              '13.jpg', '14.jpg', '15.jpg', '16.jpg'];
-    const ALFAImages = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg',
-                                '7.jpg', '8.jpg', '9.jpg'];
+    const oldSetupImages = ['1.png', '2.png', '3.png', '4.png', '5.png'];
+    const newSetupImages = ['1.png', '2.png', '3.png', '4.png'];
+    const PiImages = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png',
+                              '7.png', '8.png', '9.png', '10.png'];
+    const ALFAImages = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png',
+                                '7.png', '8.png', '9.png'];
 
     createImageUpdater('./Images/MySetup/OldSetup/', oldSetupImages, 'setup-image-old', 3000);
     createImageUpdater('./Images/MySetup/NewSetup/', newSetupImages, 'setup-image-new', 3000);
