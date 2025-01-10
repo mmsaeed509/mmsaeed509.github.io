@@ -56,13 +56,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const oldSetupImages = ['1.png', '2.png', '3.png', '4.png', '5.png'];
     const newSetupImages = ['1.png', '2.png', '3.png', '4.png'];
-    const PiImages = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png',
-                              '7.png', '8.png', '9.png', '10.png'];
-    const ALFAImages = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png',
-                                '7.png', '8.png', '9.png'];
+    const PiImages = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png'];
+    const newSetupImagesNEWROOM = ['0.png', '1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png', '10.png'];
+    const ALFAImages = ['1.png', '2.png', '3.png', '4.png', '5.png', '6.png', '7.png', '8.png', '9.png'];
 
     createImageUpdater('./Images/MySetup/OldSetup/', oldSetupImages, 'setup-image-old', 3000);
-    createImageUpdater('./Images/MySetup/NewSetup/', newSetupImages, 'setup-image-new', 3000);
+    createImageUpdater('./Images/MySetup/NewSetup-Old-Room/', newSetupImages, 'setup-image-new', 3000);
+    createImageUpdater('./Images/MySetup/NewSetup-New-Room/', newSetupImagesNEWROOM, 'setup-image-new-new-room', 3000);
     createImageUpdater('./Images/MySetup/Pi-4/', PiImages, 'Pi-4-image', 3000);
     createImageUpdater('./Images/MySetup/ALFA-Adapter/', ALFAImages, 'ALFA-image', 3000);
 });
