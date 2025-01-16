@@ -11,6 +11,13 @@
     font-style: normal;
 }
 
+.circle-img {
+    border-radius: 50%; /* Makes the image circular */
+    /*width: 150px; !* Adjust the size as needed *!*/
+    /*height: 150px; !* Adjust the size as needed *!*/
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
 /* Customize scrollbar for WebKit browsers */
 body::-webkit-scrollbar {
     width: 12px; /* width of the scrollbar */
